@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Batch Convert BRAW to MP4",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/resolve_batch_braw_to_mp4.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--src",
+                "G:\\My Drive\\Medical Tech\\BRAW",
+                "--out",
+                "G:\\My Drive\\Medical Tech\\MP4",
+                "--project",
+                "MedicalTech_BRAW_to_MP4"
+            ],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/scripts"
+            },
+            "justMyCode": true
+        }
+    ]
+}

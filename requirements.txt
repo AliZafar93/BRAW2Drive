@@ -1,0 +1,4 @@
+DaVinciResolveScript
+requests
+PyYAML
+python-dotenv

@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run BRAW to MP4 Conversion",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "${workspaceFolder}/scripts/resolve_batch_braw_to_mp4.py",
+                "--src",
+                "G:\\My Drive\\Medical Tech\\BRAW",
+                "--out",
+                "G:\\My Drive\\Medical Tech\\MP4",
+                "--project",
+                "MedicalTech_BRAW_to_MP4"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
